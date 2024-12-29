@@ -1,0 +1,15 @@
+.name_sec {
+    display: flex;
+    justify-content: center;
+    gap:12rem;
+    padding-top: 50px;
+   
+}
+
+.name_sec img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+   
+}
+

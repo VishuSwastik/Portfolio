@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 30rem;
+    width: 100%;
+}
+
+.header ul{
+   display: flex;
+   justify-content: center;
+   list-style: none;
+   gap: 2rem;
+   font-size: 20px;
+   padding-top: 10px;
+}
+li {
+    padding-left: 12px;
+    
+    transition: all left 50% ease-in-out;
+    
+}
+li:hover {
+    border-bottom: solid rgb(94, 94, 237);
+    color: rgb(210, 210, 210);
+   
+}
+
+li img {
+    padding-right: 6px;
+    height: 25px;
+    width: 25px;
+}
+
+.header ul:first-child img{
+    height: 35px;
+    width: 35px;
+   
+}
